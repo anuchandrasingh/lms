@@ -1,0 +1,43 @@
+{
+  "experiment": {
+    "title": "Phase 1 \u2013 Waterfall Project Planning",
+    "project": "GenAI-Assisted Personalized LMS",
+    "model": "gpt-4o-mini",
+    "framework": "AutoGen (pyautogen v0.3.2) \u2013 GroupChat",
+    "speaker_selection": "round_robin",
+    "date": "2026-03-09T20:57:47.133596",
+    "total_tokens": 9442,
+    "total_time_seconds": 151.07
+  },
+  "agents": [
+    {
+      "name": "Requirement_Engineer",
+      "tokens": 2274,
+      "model": "gpt-4o-mini"
+    },
+    {
+      "name": "System_Engineer",
+      "tokens": 2003,
+      "model": "gpt-4o-mini"
+    },
+    {
+      "name": "Software_Engineer",
+      "tokens": 2027,
+      "model": "gpt-4o-mini"
+    },
+    {
+      "name": "Test_Engineer",
+      "tokens": 1857,
+      "model": "gpt-4o-mini"
+    },
+    {
+      "name": "Documentation_Engineer",
+      "tokens": 1281,
+      "model": "gpt-4o-mini"
+    }
+  ],
+  "groupchat": {
+    "total_messages": 6,
+    "max_round": 6
+  }
+}
